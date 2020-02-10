@@ -1,7 +1,11 @@
 spring:
   application:
     name: item-service
-    
+  cloud:
+    config:
+      ovrride-none: true
+      
+  
 server:
   port: 8001
 
